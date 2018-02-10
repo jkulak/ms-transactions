@@ -1,0 +1,16 @@
+{
+  "name": "ms-transactions",
+  "version": "1.0.0",
+  "description": "Transactions micro-service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo;",
+    "start": "./node_modules/.bin/pm2 start --no-daemon process.json"
+  },
+  "repository": "https://github.com/jkulak/ms-transactions",
+  "author": "Jakub Kułak <jakub.kulak@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "pm2": "^2.9.2"
+  }
+}
