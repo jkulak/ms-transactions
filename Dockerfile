@@ -10,7 +10,8 @@ ENV NODE_ENV development
 RUN echo 'alias l="ls -la"' >> ~/.profile
 
 COPY package.json /app
-RUN yarn install --verbose
+# RUN yarn install --verbose
+RUN yarn install
 
 COPY . /app
 
