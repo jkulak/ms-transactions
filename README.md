@@ -13,6 +13,7 @@ Run in background (daemon mode)
 Display app logs
 
 `docker exec -ti ms-transactions-app ./node_modules/.bin/pm2 logs 0`
+`docker exec -ti ms-transactions-app ./node_modules/.bin/pm2 monit 0`
 
 # API documentation
 
