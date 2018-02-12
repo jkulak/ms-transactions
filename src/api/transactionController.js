@@ -1,7 +1,7 @@
 'use strict';
 
 const mongoose = require('mongoose'),
-  transaction = mongoose.model('Transaction');
+  transaction = mongoose.model('transaction');
 
 exports.list_all_transactions = function(req, res) {
   transaction.find({}, function(err, transaction) {
@@ -18,7 +18,7 @@ exports.create_a_transaction = function(req, res) {
     if (err) {
       res.send(err);
     }
-    res.json(transaction);
+    res.json({message: "Transaction successfully added!", transaction });
   });
 };
 

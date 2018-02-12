@@ -1,3 +1,3 @@
 'use strict';
 
-require('./lib/server.js');
+require('./src/server.js');

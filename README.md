@@ -17,4 +17,6 @@ Display app logs
 
 # API documentation
 
+Postman auto-generated documentation
+
 https://documenter.getpostman.com/collection/view/2770103-00431e24-8e9a-541c-7292-dd0519b3dc35
